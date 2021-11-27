@@ -15,9 +15,10 @@ Head tag is used for a specific purpose and not to show the content
 Body tag is used to show all the content visible to the user.
 
 git commands for reference:
-> git 
+> git init
 > git add .
 > git commit -m "install"
+> git remote add origin
 > git push -u origin master
 
 two levels of tags
