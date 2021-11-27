@@ -1,0 +1,31 @@
+To get the pictures of html
+> vscode-icons
+> tabnine
+> Gitlens
+> githistory
+
+browser is a compiiler; the code is being compiled by the browser.
+
+Head tag is used for a specific purpose and not to show the content
+> title
+> favicons
+> meta ==> two things which are important is meta description and meta keword
+> all the links of Javascript and CSS
+
+Body tag is used to show all the content visible to the user.
+
+git commands for reference:
+> git 
+> git add .
+> git commit -m "install"
+> git push -u origin master
+
+two levels of tags
+> Inline (for e.g. span, a, img): 1. they start in same line. 2. only take the space which is required
+> Block (for e.g. P, div, h1): 1. Always start from new line. 2. Take whole row
+
+<br/> - this will impact responsive designing in webpage so not recommended to used
+<hr/> - this tag will draw a horizantal line when used.
+<center> - this tag will get the content in the center of the page. This will show in red because this should be done thru CSS.
+<img src="loc of file" alt="text if location is incorrect" title="tool tip"> ==> point to note is that title can work as an alt as well; if there is no alt mentioned in the tag. But alt is important and for every image alt is important. SEO (alt plays an important role in Search Engine Optimization)
+<link href="images/NareshIT.png" rel="icon"> - this is used to add favicon which means it adds the icon next to the title. href refers to hyper reference and rel refers to related to.
