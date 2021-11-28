@@ -12,13 +12,17 @@ Head tag is used for a specific purpose and not to show the content
 > meta ==> two things which are important is meta description and meta keword
 > all the links of Javascript and CSS
 
-Body tag is used to show all the content visible to the user.
+Body tag is used to show all the content visible to the user. Semantics followed are
+> Header tag
+> div tag : this is  the most used tag
+> footer : we can put the copyright symbol here (for e.g. @copy;)
 
 git commands for reference:
 > git init
 > git add .
 > git commit -m "install"
-> git remote add origin
+> git remote add origin https://github.com/Chaliantosh/javascript_project.git
+  >> Chaliantosh/javascript_project.git is the repository name in github.
 > git push -u origin master
 
 two levels of tags
@@ -30,3 +34,15 @@ two levels of tags
 <center> - this tag will get the content in the center of the page. This will show in red because this should be done thru CSS.
 <img src="loc of file" alt="text if location is incorrect" title="tool tip"> ==> point to note is that title can work as an alt as well; if there is no alt mentioned in the tag. But alt is important and for every image alt is important. SEO (alt plays an important role in Search Engine Optimization)
 <link href="images/NareshIT.png" rel="icon"> - this is used to add favicon which means it adds the icon next to the title. href refers to hyper reference and rel refers to related to.
+meta tag should be included in theh html to make it more searchable.
+        <meta name="description" content="description about website"/>
+        <meta name="description" content="santosh chalivendri"/>
+anchor tag allows one webpage to redirect to other webpages either internal or external. target="_blank opens the new page in the new window retaining the original page.
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+
+SEO (Search Engine Optimization) - It is impacted by meta tag. (description and content). It alt attribute in image is tag not available and generate a report, it will show in the report. 
+
+Integration with html
+> google maps
+> video
+> audio
