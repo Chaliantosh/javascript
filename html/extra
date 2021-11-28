@@ -46,3 +46,14 @@ Integration with html
 > google maps
 > video
 > audio
+
+Lists in html
+> Unordered lists
+> Ordered lists
+> Descriptive Lists - feature of html5
+> Data list - which can be used for search the options
+    >> label, 
+
+Single template website: This can be built using the following (part of html 5)
+> Section with id tags
+> anchor tags
