@@ -57,3 +57,54 @@ Lists in html
 Single template website: This can be built using the following (part of html 5)
 > Section with id tags
 > anchor tags
+
+html is about the tag name and CSS is about the property.
+> to the html we will apply CSS.
+
+There are three ways to add CSS to html page. 
+> inline: when we write CSS in html tag
+> styletag: when we add style tag in head
+> stylesheet: keping CSS separate
+
+Prioirty: 
+> inline has highest priority followed by styletag and finally stylesheet.
+For e.g.: 
+if h1 has all the different ways of calling CSS:
+
+h1
+Inline
+{
+        color:red,
+        font-size:30px
+}
+styletag
+{
+        color:orange,
+        text-align:center
+}
+stylesheet
+{
+        font-size:30px,
+        text-align:right,
+        font-wieght:bold
+}
+
+As per the priority (inline has higher, followed up styletag & stylesheet), following properties will be applied:
+h1
+{
+        color:red,
+        font-size:30px,
+        text-align:center,
+        font-wieght:bold
+}
+
+Three ways to mention color proprty in CSS:
+> mention color name
+> mention color code (HEX)
+> mention RGB code
+
+CSS Color Properties:
+> Always try to give height in the pixel and width in the %, because it will take the screen size.
+
+float:left: 
+> With this category items will come in one line.
