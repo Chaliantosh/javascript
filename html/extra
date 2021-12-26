@@ -107,7 +107,10 @@ CSS Color Properties:
 > Always try to give height in the pixel and width in the %, because it will take the screen size.
 
 float:left: 
-> With this category items will come in one line.
+> With this category items will come in one line. It is mainly used if content is different.
+> If we want anything for e.g. footer in next line, this will not be used. In that case, create a 
+  main div & warap it using the display: inline-block property. display: inline-block property is
+  mainly used for content is not same.
 
 CSS: Targetting an element thru:
 > Tag Name: It will target all the elements with the same tag name. For e.g:
