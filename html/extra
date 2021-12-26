@@ -4,7 +4,7 @@ To get the pictures of html
 > Gitlens
 > githistory
 
-browser is a compiiler; the code is being compiled by the browser.
+browser is a compiler; the code is being compiled by the browser.
 
 Head tag is used for a specific purpose and not to show the content
 > title
@@ -108,3 +108,13 @@ CSS Color Properties:
 
 float:left: 
 > With this category items will come in one line.
+
+CSS: Targetting an element thru:
+> Tag Name: It will target all the elements with the same tag name. For e.g:
+                h1
+                {
+                   color:red
+                }
+> ID (#): It will target something that is unique (should be used only once). Id has more priority than class.
+> Class (.): It will target group of element (can be used multiple times). If two classes are given in html,
+  then the class which is written in style tag will have higher priority.
